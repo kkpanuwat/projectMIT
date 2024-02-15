@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    .fullscreen {
+      /* สูงเท่ากับความสูงของหน้าจอ */
+      height: 100vh;
+      /* ทำให้ .left, .center และ .right ต่อกันเป็นแนวนอน */
+      display: flex;
+    }
+
+    .left,
+    .center,
+    .right {
+      box-sizing: border-box;
+      padding: 16px;
+    }
+
+    .left {
+      background-color: red;
+      width: 20%;
+    }
+
+    .center {
+      background-color: green;
+      width: 60%;
+      /* ถ้าข้อมูลมันเยอะจนล้นตามแนวแกน y ให้มัน scroll */
+      overflow-y: scroll;
+    }
+
+    .right {
+      background-color: blue;
+      width: 20%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fullscreen">
+    <div class="left">
+      <h2>Menu</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+    </div>
+    <div class="center">
+      <h1>Header 1</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 2</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 3</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 4</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 5</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 6</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+      <h1>Header 7</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit earum alias optio eos suscipit adipisci
+        facere eligendi, porro dolores debitis commodi nobis, quos rem cupiditate odio accusantium corporis blanditiis
+        vel laborum dolor beatae harum perferendis expedita. Eius eaque nobis, accusantium dolorem blanditiis neque illo
+        maiores delectus nisi. Iste, ducimus, quia exercitationem illum harum dolore sit error accusamus mollitia, rerum
+        dolores est! Voluptate, pariatur maiores dolore, excepturi reprehenderit ipsum perspiciatis aut unde voluptatum
+        ducimus voluptates quidem. Explicabo nam aliquid eius tenetur minima, recusandae quisquam, totam libero
+        consequatur mollitia aperiam eos corporis odio sunt deleniti? Itaque, eius neque! Libero, quis sit!
+      </p>
+    </div>
+    <div class="right">
+      <h3>Ad.</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, distinctio?</p>
+      <hr>
+      <h3>Ad.</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, distinctio?</p>
+    </div>
+  </div>
+</body>
+
+</html>

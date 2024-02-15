@@ -1,0 +1,230 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+#page-top{
+    background-color: #fcfcfc;
+}
+.fullscreen {
+    /* สูงเท่ากับความสูงของหน้าจอ */
+    height: 100vh;
+    /* ทำให้ .left, .center และ .right ต่อกันเป็นแนวนอน */
+    display: flex;
+  }
+
+  .left,
+  .center,
+  .right {
+    /* box-sizing: border-box; */
+    padding: 16px;
+    padding-bottom: 3em;
+  }
+
+  .left {
+    width: 15%;
+  }
+
+  .center {
+    background-color:whitesmoke;
+    width: 50%;
+    margin-left: 21%;
+    border-radius: 5px;
+    margin-top: -6%;
+    /* ถ้าข้อมูลมันเยอะจนล้นตามแนวแกน y ให้มัน scroll */
+    overflow-y: scroll;
+  }
+
+  .right {
+    width: 20%;
+    margin-top: -9%;
+  }
+  .bar{
+      width: 100%;
+      background-color:#8e24aa;
+      height: 15em;
+      z-index: -10;
+  }
+  .welcome{
+      font-size: 15px;
+      margin-top: 0.5em;
+      float: right;
+      margin-right: 2em;
+      color: white;
+  }
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: #b9b8b8 2px 10px 20px;
+  }
+  
+  .sidenav a {
+      margin-top: 15px;
+    padding: 6px 8px 6px 16px;
+    /* border: 2px solid rgba(0, 0, 0, 0); */
+    border-radius: 5px;
+    width: 90%;
+    transition: 0.5s;
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 22px;
+    color: #7e7e7e;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover{
+    /* border: 2px solid rgb(173, 106, 164); */
+    color: #ffffff;
+    background-color: #8e24aa;
+    box-shadow: rgb(216, 216, 216) 10px 10px 10px;
+  }
+  
+  
+  #fullscreen{
+      height: 100vh;
+  }
+  img.img_pp{
+      margin: auto auto;
+    display: block;
+    width: 100px;
+  }
+  */
+  .col-md-7{
+    overflow-y: scroll;
+  }
+  .card{
+      margin-top: 1em;
+  }
+  .card_text{
+
+      margin-top: 1.5em;
+      margin-bottom: 0;
+  }
+  .text1{
+      margin-top: -1em;
+      margin-left: 1em;
+  }
+  #row_card{
+      width: 28em;
+      background-color: rgb(255, 255, 255);
+      height: 40em;
+    border: solid 1px #f1f1f1;
+    box-shadow: #b9b8b8 2px 5px 20px;
+    border-radius: 5px;
+    /* position: fixed; */
+    margin-top: 2em;
+  
+  }
+  .topic{
+    margin-left: 1em;
+    background-color: rgb(216, 101, 24);
+    height: 2em;
+    padding: 5px;
+    color: white;
+    width: 45% !important;
+    border-radius: 3px;
+  }
+  .text3{
+      margin-top: 1em;
+  }
+  .item2 {
+      margin-top: -18em;
+      width: 100%;
+  }
+  table tr{
+      border-bottom: solid 1px rgb(209, 207, 207);
+  }
+.th1 ,.td1{
+    width: 10%;
+}
+.th2 ,.td2{
+    width: 30%;
+}
+.th3 ,.td3{
+    text-align: center;
+    width: 25%;
+}
+.th4 ,.td4{
+  width: 20%;
+  text-align: center;
+  
+}
+.th5 ,.td5{
+    width: 20%;
+    
+  }
+.btn_d{
+    background-color: rgb(230, 227, 228);
+    color: rgb(71, 70, 70);
+    border-radius: 5px;
+    width: 35px;
+    border: 0px;
+    transition: 0.3s;
+}
+.btn_p{
+    background-color:  rgb(230, 227, 228);
+    color: rgb(71, 70, 70);
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 0px;
+    width: 35px;
+}
+.btn_d:hover{
+    background-color:  rgb(92, 88, 90);
+    color: white;
+}
+.btn_p:hover{
+    background-color:  rgb(92, 88, 90);
+    color: white;
+}
+.btn_delete{
+    background-color:  rgb(143, 23, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 0px;
+    width: 35px;
+    margin-left: 20%;
+}
+.img_bin{
+    width: 60%;
+}
+.btn_delete:hover{
+    background-color:  rgb(182, 59, 121);
+    color: white;
+}
+
+.btn_con{
+    background-color:  rgb(35, 135, 182);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 0px;
+    padding: 5px;
+    width: 110px;
+    margin-top: -1%;
+    /* margin-right: -3em; */
+    float: right;
+}
+.btn_con:hover{
+    background-color:  rgb(88, 195, 238);
+    color: white;
+}
+.sp{
+margin-top: 2em;
+}
+.sum{
+    width: 5em;
+    border-radius: 5px;
+    border: 1px rgb(141, 139, 139);
+}
+
+
+
+  
+
